@@ -1,0 +1,48 @@
+/* Define custom styles for your article card here */
+.article-card {
+    /* Add your custom styles here */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  .body{
+    margin: 20px;
+
+  }
+  
+  .article-image {
+    /* Define styles for the image here */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .article-title {
+    /* Define styles for the title here */
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .article-description {
+    /* Define styles for the description here */
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .article-author {
+    /* Define styles for the author here */
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  .article-read-more {
+    /* Define styles for the "Read More" button here */
+    margin-top: 10px;
+  }
+  
+  .Arts{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+  }

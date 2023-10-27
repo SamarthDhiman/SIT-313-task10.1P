@@ -1,0 +1,67 @@
+/* TutorialCard.css */
+
+.tutorial-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .tutorial-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tutorial-card .image {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    margin: 30px;
+
+    border-top-right-radius: 5px;
+  }
+  
+  .tutorial-card .content {
+    padding: 1rem;
+  }
+  
+  .tutorial-card .header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tutorial-card .description {
+    margin-bottom: 1rem;
+  }
+  
+  .tutorial-card .meta {
+    color: #777;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tutorial-card .extra {
+    text-align: center;
+  }
+  
+  .tutorial-card .extra .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .tutorial-card .extra .button:hover {
+    background-color: #0056b3;
+  }
+
+  .ques {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+  }
